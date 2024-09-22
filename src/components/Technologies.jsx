@@ -3,6 +3,11 @@ import { SiDjango } from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { SiAndroidstudio } from "react-icons/si";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
+import { FaGit } from "react-icons/fa";
+
+
 
 const Technologies = () => {
   return (
@@ -20,6 +25,15 @@ const Technologies = () => {
         </div>
         <div className='p-4'>
           <BiLogoPostgresql className="text-7xl text-red-700" />
+        </div>
+        <div className='p-4'>
+          <SiAndroidstudio className="text-7xl text-white-700" />
+        </div>
+        <div className='p-4'>
+          <IoLogoGooglePlaystore className="text-7xl text-grey-700" />
+        </div>
+        <div className='p-4'>
+          <FaGit className="text-7xl text-700" />
         </div>
       </div>
     </div>

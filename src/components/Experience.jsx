@@ -6,7 +6,7 @@ const Experience = () => {
         <h2 className="my-20 text-center text-4xl">Experience</h2>
         <div>
             {EXPERIENCES.map((experience, index) => (
-                <div className="mb-8 flex flex-wrap lg:justify-center">
+                <a href={experience.certLink}><div className="mb-8 flex flex-wrap lg:justify-center">
                     <div className="w-full lg:w-1/4">
                     <p className="mb-2 text-sm text-stone-400">
                         {experience.year}
@@ -28,7 +28,7 @@ const Experience = () => {
                             </span>
                         ))}
                     </div>
-                </div>
+                </div></a>
             ))}
         </div>
     </div>

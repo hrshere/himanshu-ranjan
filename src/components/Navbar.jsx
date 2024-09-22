@@ -1,5 +1,6 @@
 
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { SiCredly } from "react-icons/si";
 import logo from "../assets/raviKumarLogo.webp"
 import React from 'react'
 import { FaSquareXTwitter } from "react-icons/fa6"
@@ -14,17 +15,17 @@ const Navbar = () => {
             </a>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <a href="https:linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/himanshu-ranjan-singh-21975a192/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <FaLinkedin />
             </a>
             <a href="https://github.com/hrshere" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <FaGithub />
             </a>
-            <a href="https:linkedin" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/himansh0211/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <FaInstagram />
             </a>
-            <a href="https:linkedin" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <FaSquareXTwitter />
+            <a href="https://www.credly.com/users/himanshu-ranjan-singh.68df5f5c" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                < SiCredly/>
             </a>
         </div>
     </nav>

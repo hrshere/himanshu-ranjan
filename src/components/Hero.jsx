@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp"
+import profilePic from "../assets/himanshuRanjanProfile7.jpg"
 import { HERO_CONTENT } from "../constants"
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
                 <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
                     {HERO_CONTENT}
                 </p>
-                <a href="/resume.pdf"
+                <a href="/Himanshu_res2.docx.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
